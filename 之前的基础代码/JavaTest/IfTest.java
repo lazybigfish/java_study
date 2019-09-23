@@ -63,10 +63,10 @@ public class IfTest{
 		 if (ages > 150 || ages < 0) {
 		 	out = "输入的年龄有误！";
 		 }else if (ages >= 56) {
-		 	out = "老年人！"
-		 }else if (ages >= ) {
+		 	out = "老年人！";
+		 }else if (ages >= 55) {
 		 	out = "";
-		 }else if (ages >= ) {
+		 }else if (ages >= 55) {
 		 	out = "";
 		 }
 	}
