@@ -1,5 +1,14 @@
 # Java基础！
 
+## public class 和class 的区别
+
+- 一个Java源文件中可以定义多个class
+- 一个Java源文件中public 的class 不是必须的
+- 一个class会生成一个class文件
+- public class 的名字必须要和文件名一致
+- 每一个class中都可以编写main方法，都可以设定程序的入口
+- 
+
 ## 标识符
 
 1.什么是标识符？
