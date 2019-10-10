@@ -236,6 +236,73 @@ Byte <short<int<long<float<double<char
 
 ## 控制语句
 
+- 选择结构
+
+- -  if
+
+  - - 又被称为分支语句，条件控制语句。
+
+    - ```java
+      if(boolean){
+      		do;
+      }
+      ```
+
+    - ```java
+      if(boolean){
+          do;
+      }else{
+          do;
+      }
+      ```
+
+    - ```java
+      if(boolean){
+          do;
+      }else if(boolean){
+          do;
+      }
+      ```
+
+    - 对于java的if来说，只要一个执行，其他的分支全部结束
+
+  - switch
+
+  - - 属于选择结构的分支语句
+
+    - ```java
+      switch(int/str){
+      	case int/str:
+      		do;
+      		do;
+          case int/str:
+              do;
+          default:
+              do;
+      }
+      ```
+
+    - 执行原理：switch小括号当中的数据和case后面的数据一一匹配，匹配成功分支执行。
+
+    - 匹配成功后，分支当中有break语句，整个switch终止。
+
+    - 匹配成功后，分支当中没有break，执行完该分支后直接进入下一个分支执行（不进行匹配），被称为”switch穿透“。会直接穿透到结束。添加break避免穿透。
+
+    - switch后面和case后面只能是int或者str类型的数据。
+
+- 循环结构
+
+- - while
+  - for
+  - do...while
+
+- 控制循环结构
+
+- - break
+  - continue
+
+
+
 ## 数组
 
 int[] a; 声明了一个数组变量。
