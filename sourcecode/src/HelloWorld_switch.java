@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class HelloWorld_switch {
     public static void main(String[] args) {
-        System.out.println("请输入月份：");
+        System.out.println("请输入数字 ：");
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         switch (a){

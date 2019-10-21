@@ -292,10 +292,34 @@ Byte <short<int<long<float<double<char
 
 - 循环结构
 
-- - while
-  - for
-  - do...while
+- - 在程序中总有一些需要反复重复执行的代码，将代码放到循环体中，在联合计数器，来共同控制这些反复执行的代码。
 
+- - while
+  
+  - - 语法结构
+
+    - ```java
+      while(boolean){
+        //循环体
+      }
+      ```
+  
+    - 
+  
+  - for
+  
+  - - 语法结构
+  
+    - ```java
+      for(初始化表达式;布尔表达式;更新表达式){
+        //需要重复执行的代码片段
+      }
+      ```
+  
+    - 
+  
+  - do...while
+  
 - 控制循环结构
 
 - - break
@@ -323,4 +347,4 @@ public class HelloWorld {
 
 ```
 
-创建数组时候指定数组长度
+创建数组时候指定数组长度 
