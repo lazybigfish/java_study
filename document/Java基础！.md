@@ -323,7 +323,17 @@ Byte <short<int<long<float<double<char
 - 控制循环结构
 
 - - break
+  - - 表示终止
   - continue
+  - - 表示继续，下一个
+    - 主要出现循环语句中控制循环的执行。
+    - break和continue的区别
+    - - break表示执行中断，不走了
+      - continue表示终结本次循环，直接进入下一次循环继续执行
+
+## 方法
+
+
 
 
 
