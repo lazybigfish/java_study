@@ -139,10 +139,6 @@ Java遵循就近原则
 
 
 
-
-
-
-
 ---
 
 ## 数据类型
@@ -304,8 +300,6 @@ Byte <short<int<long<float<double<char
       }
       ```
   
-    - 
-  
   - for
   
   - - 语法结构
@@ -315,8 +309,6 @@ Byte <short<int<long<float<double<char
         //需要重复执行的代码片段
       }
       ```
-  
-    - 
   
   - do...while
   
@@ -333,7 +325,68 @@ Byte <short<int<long<float<double<char
 
 ## 方法
 
+### 方法概述
 
+- 某个功能代码只需要写一遍
+- 要使用这个功能，只需要给这个功能传递具体的数据
+- 这个功能完成以后返回一个结果
+- 这个功能代码可以重复使用
+
+-- 使用方法叫做调用/invoke，
+
+-- 方法就是一段代码片段，并且这段代码片段可以完成某个特定的功能，并且可以被重复使用。
+
+-- 对应名称：method
+
+-- c中称之为函数：function
+
+-- 方法定义在类体当中，方法在一个类当中可以定义多个方法，编写位置没有先后顺序。
+
+--- 方法体当中不能再定义方法，方法体当中要有顺序。
+
+--- 方法体由Java语句构成，遵守自上而下的顺序。
+
+1.方法怎么定义，语法结构：
+
+[修饰符列表] 返回值类型 方法名（形式参数列表）{
+
+​		方法体
+
+}
+
+2.对以上语法结构进行解释说明
+
+- 关于修饰符列表
+- - 可选项，不是必须的
+  - 目前统一写成public static
+  - 方法的修饰符中有static关键字的话怎么调用
+  - - 类名.方法名（实际参数列表）
+- 返回值类型
+- - 什么是返回值？
+  - 一个方法是完成某个特定功能的，功能结束后大多是需要返回一个最终执行结果的，执行结果可能是一个具体的数据。
+- - 返回值类型：每一个返回的数据都是由类型的，此处需要制定返回值的具体类型。
+- - 没有返回值的情况下，填写：void。不能再语句中填写return 值，可以填写return;
+- - 只要带有return关键字的语句执行，return所在的方法结束执行。
+- 方法名：只要是合法的名称即可。但是最好需要见名思义。首字母要小写，后面没个单词首字母大写。
+- 形式参数列表：简称形参。
+- - 形参是局部变量。
+  - 形参个数不限制
+  - 多个形参用逗号隔开
+  - 形参中决定性作用的是形参的数据类型，形参的名字就是局部变量的名字。
+  - 实参列表和形参列表必须相同
+- 方法体必须有大括号括起来。
+- 方法怎么调用？
+- - 方法只定义不调用就不会执行，只有调用的时候才执行。
+  - ![image-20191023213327417](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023213327417.png)
+  - ![image-20191023213843078](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023213843078.png)
+- ![image-20191023215602279](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023215602279.png)
+- ![image-20191023220320035](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023220320035.png)
+- 方法返回值类型不是void的时候
+- ![image-20191023221424116](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023221424116.png)
+- 深入return语句
+- ![image-20191023222041784](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023222041784.png)
+- ![image-20191023222319117](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023222319117.png)
+- 
 
 
 
