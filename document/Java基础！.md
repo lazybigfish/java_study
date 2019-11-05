@@ -386,9 +386,43 @@ Byte <short<int<long<float<double<char
 - 深入return语句
 - ![image-20191023222041784](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023222041784.png)
 - ![image-20191023222319117](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191023222319117.png)
-- 
+- 方法执行过程中，内存的变化
+- - ![image-20191027094600764](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191027094600764.png)
+  - ![image-20191027095159191](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191027095159191.png)
+  - 方法重载机制
+  - - 方法重载：overload
+    - 什么时候考虑方法重载
+    - - 功能相似，尽可能方法名相同[功能不同时，尽可能方法名字不同]
+    - 什么条件满足构成方法重载
+    - - 在同一个类
+      - 方法名相同
+      - 参数列表不同
+    - 方法重载和什么有关系，和什么没关系
+    - - 和方法名+参数列表有关
+      - 和返回值类型无关
+      - 和修饰符列表无关
+    - 方法重载的具体应用
+  - 关于方法的递归
+  - - 什么是递归？
+    - - 方法自己调用自己
+    - 递归很耗费内存占用，能不用尽量不用。
+    - 递归必须有结束条件，否则必定会内存溢出。 
 
+## 面向对象
 
+### 面向过程和面向对象的区别
+
+![image-20191029230944826](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191029230944826.png)
+
+### 面向对象的三大特征
+
+![image-20191030194530443](/Users/zhuguolin/Library/Application Support/typora-user-images/image-20191030194530443.png)
+
+---
+
+### 面向对象的概念
+
+##### 对象的创建使用
 
 ## 数组
 
